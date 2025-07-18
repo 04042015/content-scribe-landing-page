@@ -17,24 +17,49 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 258 90% 66%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 240 5% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 258 90% 66%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 258 90% 66%;
+
+    /* Professional content writer color palette */
+    --writer-primary: 258 90% 66%;
+    --writer-secondary: 280 100% 70%;
+    --writer-accent: 45 93% 47%;
+    --writer-neutral: 225 15% 95%;
+    --writer-dark: 222.2 84% 4.9%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--writer-primary)), hsl(var(--writer-secondary)));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 5% 96%));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(var(--writer-primary) / 0.1);
+    --shadow-button: 0 4px 14px 0 hsl(var(--writer-primary) / 0.25);
+    
+    /* Typography */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
 
     --radius: 0.5rem;
 
